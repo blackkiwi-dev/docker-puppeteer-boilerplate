@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  server:
+    image: node:12.14.1
+    container_name: puppeteer
+    volumes:
+      - ./:/app/
+    restart: always
+    ports:
+      - "3000:3000"
+    working_dir: /app/
+    user: root
+    command: bash -c "./scripts/init.sh"
+    environment:
+      TZ: "Asia/Seoul"

@@ -1,0 +1,26 @@
+{
+  "name": "docker-puppeteer-boilerplate",
+  "version": "1.0.0",
+  "description": "빠르게 퍼펫티어가 포함된 도커 컨테이너를 띄울 수 있는 보일러 플레이트입니다.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mosball",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pm2": "^4.4.0",
+    "puppeteer": "^3.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackkiwi-dev/docker-puppeteer-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blackkiwi-dev/docker-puppeteer-boilerplate/issues"
+  },
+  "homepage": "https://github.com/blackkiwi-dev/docker-puppeteer-boilerplate#readme"
+}
