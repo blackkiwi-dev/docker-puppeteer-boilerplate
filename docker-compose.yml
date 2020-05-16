@@ -11,6 +11,6 @@ services:
       - "3000:3000"
     working_dir: /app/
     user: root
-    command: bash -c "./scripts/init.sh"
+    command: bash -c "chmod +x ./scripts/init.sh && ./scripts/init.sh"
     environment:
       TZ: "Asia/Seoul"
