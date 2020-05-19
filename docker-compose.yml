@@ -2,7 +2,7 @@ version: "3"
 
 services:
   server:
-    image: node:12.14.1
+    image: blackkiwi-puppeteer:0.0.1
     container_name: puppeteer
     volumes:
       - ./:/app/
