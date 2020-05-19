@@ -8,10 +8,11 @@ A boiler plate that can quickly float a docker container containing a puppeteer.
 
 ## Getting Started
 
-#### Step1
+### Step1
 
 ```
 git clone https://github.com/blackkiwi-dev/docker-puppeteer-boilerplate.git
+
 cd docker-puppeteer-boilerplate
 ```
 
@@ -21,7 +22,7 @@ cd docker-puppeteer-boilerplate
 docker build . --tag blackkiwi-puppeteer:0.0.1
 ```
 
-#### Step3
+### Step3
 
 ```
 docker-compose up -d
