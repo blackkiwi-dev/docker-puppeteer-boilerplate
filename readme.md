@@ -12,9 +12,17 @@ A boiler plate that can quickly float a docker container containing a puppeteer.
 
 ```
 git clone https://github.com/blackkiwi-dev/docker-puppeteer-boilerplate.git
+cd docker-puppeteer-boilerplate
 ```
 
-#### Step2
+### Step2
+
+```
+docker build . --tag blackkiwi-puppeteer:0.0.1
+```
+
+#### Step3
+
 ```
 docker-compose up -d
 ```
@@ -22,5 +30,6 @@ docker-compose up -d
 <br>
 
 ## Etc.
+
 - 컨테이너의 타임존을 설정하려면 `docker-compose.yml` 파일의 TZ 환경 변수를 사용하세요.
 - To set the container's time zone, use the TZ environment variable in the `docker-compose.yml` file.
